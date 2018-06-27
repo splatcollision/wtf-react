@@ -1,0 +1,20 @@
+/*Ship.css*/
+
+
+.ship {
+	position: absolute;
+/*	border-left: 1px solid green;
+	border-top: 1px solid blue;*/
+	/*transform: translate(50%,50%);*/
+}
+
+.ship img {
+	margin-left: -5px;
+}
+.ship .coord {
+	width: 48px;
+	height: 80px;
+	left: 10px;
+	border-right: 1px solid red;
+	border-bottom: 1px solid pink;
+}

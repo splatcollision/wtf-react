@@ -1,0 +1,33 @@
+.target {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #bada55;
+	text-align: center;
+	/*background-image: url('./rock_big.png');*/
+	/*background-size: contain;*/
+}
+.target.hit {
+	background: red;
+	width: 40px;
+	height: 40px;
+}
+
+.coord {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-left: 1px solid green;
+	border-top: 1px solid blue;
+}
+
+.target .coord {
+	width: 60px;
+	height: 60px;
+}
+
+.target.hit .coord {
+	width: 40px;
+	height: 40px;
+}
